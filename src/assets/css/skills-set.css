@@ -1,0 +1,92 @@
+.skills-set-wrapper {
+  color: white;
+  margin: auto;
+  margin-top: 100px;
+  padding: 50px;
+  font-size: 20px;
+  width: 100%;
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.skills-set-wrapper .skills-set-header {
+  font-family: Poppins-Regular;
+  letter-spacing: 1px;
+  padding: 5px 0;
+  border-bottom: 3px solid #444;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.skills-set-wrapper .skills-set-header span {
+  font-size: 12px;
+  color: #aaa;
+  font-family: Poppins-Light;
+  margin-left: 5px;
+}
+
+.skills-set-wrapper .skills-set-header::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  height: 3px;
+  width: 50%;
+  background: rgba(0, 255, 255, 0.5);
+  z-index: 10;
+}
+
+.skills-set-wrapper .skills-set-content-wrapper {
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 16px;
+  font-family: Poppins-Light;
+  letter-spacing: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skills-set-wrapper .skills-set-content-wrapper .skill-wrapper {
+  background: #282828;
+  border-radius: 8px;
+  border: 2px solid #444;
+  color: #e5e5e5;
+  margin: 20px;
+}
+
+.skills-set-wrapper .skills-set-content-wrapper .skill-wrapper .skill-icon {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.skills-set-wrapper .skills-set-content-wrapper .skill-wrapper .skill-icon img {
+  height: 50px;
+}
+
+.skills-set-wrapper .skills-set-content-wrapper .skill-wrapper .skill-name {
+  border-top: 1px solid #444;
+  text-align: center;
+  padding: 5px 20px;
+}
+/*# sourceMappingURL=skills-set.css.map */
